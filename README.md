@@ -5,23 +5,16 @@ and advertising management — exposed to Claude Code via a custom MCP server.
 
 ---
 
-## Push this project to GitHub
+## Repository
 
-1. Create a new empty repository on [GitHub](https://github.com/new) (no README or `.gitignore` there, since this repo already has them).
-2. In the project folder:
+**[github.com/WALEED-WAHEED/Social-Media-Automation-with-Claude-Code](https://github.com/WALEED-WAHEED/Social-Media-Automation-with-Claude-Code)**
 
-```powershell
-git init
-git add .
-git commit -m "Initial commit: social automation platform and MCP server"
-git branch -M main
-git remote add origin https://github.com/<YOUR_USER>/<YOUR_REPO>.git
-git push -u origin main
+```bash
+git clone https://github.com/WALEED-WAHEED/Social-Media-Automation-with-Claude-Code.git
+cd Social-Media-Automation-with-Claude-Code
 ```
 
-Replace `<YOUR_USER>` and `<YOUR_REPO>` with your GitHub username and repository name. Use SSH instead if you prefer: `git@github.com:<YOUR_USER>/<YOUR_REPO>.git`.
-
-**Security:** Never commit real API keys. This repo uses `config/api_keys.example.env` as a template; keep secrets in a local `.env` file (ignored by git).
+**Security:** Never commit real API keys. Use `config/api_keys.example.env` as a template and keep real credentials in a local `.env` file (ignored by git).
 
 ---
 
