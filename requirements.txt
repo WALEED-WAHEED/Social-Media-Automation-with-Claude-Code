@@ -1,0 +1,35 @@
+# ============================================================
+# Social Media Automation Platform — Python Dependencies
+# ============================================================
+# Install with:  pip install -r requirements.txt
+# ============================================================
+
+# MCP server
+mcp>=1.0.0
+
+# HTTP client (async)
+httpx>=0.27.0
+
+# Twitter / X
+tweepy>=4.14.0
+
+# Google APIs (YouTube + Google Ads)
+google-api-python-client>=2.130.0
+google-auth>=2.29.0
+google-auth-oauthlib>=1.2.0
+google-auth-httplib2>=0.2.0
+google-ads>=24.0.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Scheduling utilities (used by scheduler loop)
+# (Standard-library asyncio is used for the loop; APScheduler is optional)
+# apscheduler>=3.10.4
+
+# PowerPoint generation (for presentation script)
+python-pptx>=1.0.0
+
+# Development / testing
+pytest>=8.0.0
+pytest-asyncio>=0.23.0
